@@ -72,8 +72,8 @@
       ]
     },
     "/Users/ilyaspatanam/personal_git/blockchain-learning/hello-world/contracts/HelloIlyas.sol": {
-      "lastModificationDate": 1633295572317,
-      "contentHash": "a44741d928a7b01f006494ab21604ac0",
+      "lastModificationDate": 1633323101246,
+      "contentHash": "7a69cf549ea3c791501882ce7f817a42",
       "sourceName": "contracts/HelloIlyas.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -104,7 +104,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "HelloWorld"
+        "SmartInvoice"
       ]
     }
   }

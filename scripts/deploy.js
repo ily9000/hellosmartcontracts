@@ -9,8 +9,8 @@ async function main() {
 
 	console.log("Account balance:", (await deployer.getBalance()).toString());
 
-	const HelloWorld = await ethers.getContractFactory("HelloWorld");
-	const contract = await HelloWorld.deploy();
+	const contract_1 = await ethers.getContractFactory("SmartInvoice");
+    const contract = await contract_1.deploy(2000);
 
 	console.log("Contract deployed at:", contract.address);
 }

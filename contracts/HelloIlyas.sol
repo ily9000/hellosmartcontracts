@@ -4,14 +4,15 @@
 pragma solidity ^0.8.0;
 import "hardhat/console.sol";
 
-contract HelloWorld {
-	string greeting;
+contract SmartInvoice {
+    uint public invoiceAmount;    
 
-	constructor() {
-		greeting = 'hello ilyas';
-	}
+    // Reads the last stored value
+    function retrieve() public view returns (uint256) {
+        return invoiceAmount;
+    }
 
-	function speak() public view returns(string memory) {
-        return greeting;
+    constructor(uint _invoiceAmount) {
+        invoiceAmount = _invoiceAmount;
     }
 }
