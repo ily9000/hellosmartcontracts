@@ -15,7 +15,7 @@ npx hardhat help
 ```
 
 
-#To begin we will first add our contract to the Ropsten test network. Ropsten test network has the same protocol as the etherum network.
+# To begin we will first add our contract to the Ropsten test network. Ropsten test network has the same protocol as the etherum network.
 
 Have access to a node. A node runs the software to verify your transactions and keeps a record of all transactions in the blockchain. For this exercise, I used quicknode so that I didn't need to set my own up.
 Go to the Ropsten faucet: https://faucet.ropsten.be/ and setup a wallet with some fake ETH.
